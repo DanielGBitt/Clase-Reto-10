@@ -36,13 +36,13 @@ nav {
 
 nav a {
   color: white;
-  margin: 40px;
+  margin: 20px;
   text-decoration: none;
 }
 
 main {
   background-color: rgb(241, 241, 241);
-  height: 250px;
+  height: 260px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -53,7 +53,7 @@ main section {
   background-color: white;
   border-radius: 10px;
   height: 180px;
-  width: 350px;
+  width: 430px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -82,7 +82,7 @@ main section button {
 }
 
 footer{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.862);
     height: 120px;
     width: 100%;
     display: flex;

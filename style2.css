@@ -42,7 +42,7 @@ nav a {
 
 main {
   background-color: rgba(0, 0, 0, 0.889);
-  height: 250px;
+  height: 260px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -53,7 +53,7 @@ main section {
   border: 1px solid aqua;
   border-radius: 10px;
   height: 180px;
-  width: 350px;
+  width: 430px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -80,15 +80,15 @@ main section button {
   cursor: pointer;
 }
 
-footer{
-    background-color: black;
-    height: 120px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+footer {
+  background-color: black;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer p {
-    color: white;
+  color: white;
 }
