@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.889);
+  width: 100%;
+  height: 200px;
+  padding: 50px;
+  text-align: center;
+}
+
+header h1 {
+  color: aqua;
+}
+
+header p {
+  margin-top: 20px;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  color: aqua;
+  margin: 40px;
+  text-decoration: none;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.889);
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main section {
+  border: 1px solid aqua;
+  border-radius: 10px;
+  height: 180px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+main section h2 {
+  color: aqua;
+  margin-bottom: 5px;
+}
+
+main section p {
+  color: white;
+  font-size: 12px;
+}
+
+main section button {
+  background-color: aqua;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+}
